@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+:root{
+    --primary-color: #1F2937;
+    --second-colour: #F9FAFB;
+
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+.nav .brand-name{
+    font-size: larger;
+    font-weight: bold;
+    text-align: left;
+}
+
+.nav .nav-inline{
+    list-style: none;
+    display: inline;
+    text-align: right;
+}
+}
