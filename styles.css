@@ -1,24 +1,123 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
-:root{
+:root {
     --primary-color: #1F2937;
-    --second-colour: #F9FAFB;
-
+    --secondary-color: #E5E7EB;
 }
 
 body{
     font-family: 'Lato', sans-serif;
+    margin-block-end: 0px;
+    margin-block-start: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
 }
 
-.nav .brand-name{
-    font-size: larger;
-    font-weight: bold;
+.navigation{
+    background-color: var(--primary-color);
+    color:white;
+    padding: 1rem;
+    border-radius: 0rem 0rem 2rem 2rem ;
+}
+
+.nav-brand{
     text-align: left;
+    font-weight: bolder;
+    font-size: x-large;
+    padding-left: 2rem ;
 }
 
-.nav .nav-inline{
+.nav-list{
+    text-decoration: none;
     list-style: none;
-    display: inline;
     text-align: right;
 }
+
+.nav-list-link{
+    display: inline;
+    padding:  2rem ;
+    font-size: large;
 }
+
+.nav-link{
+    text-decoration: none;
+    color: white;
+}
+
+.nav-link-active{
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+
+.header-image{
+    margin: auto;
+    max-width: 400px;
+    display: block;
+}
+
+.header-heading{
+    text-align: center;
+}
+
+.header-inverted{
+    color: blue;
+}
+
+.offwhite{
+    background-color: var(--secondary-color);
+    padding: 3rem;
+    text-align: center;
+    border-radius: 2rem;
+    margin: 0px;
+}
+
+.white{
+    padding: 3rem;
+    text-align: center;
+}
+
+.section-para {
+    text-align: center;
+    padding: 1rem; 
+}
+
+.button{
+    background-color: var(--primary-color);
+    padding: 1rem;
+    color: white;
+    text-decoration: none;
+    border-radius: 1rem;
+}
+
+.footer{
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    padding: 1rem;
+    border-radius: 2rem 2rem 0rem 0rem;
+}
+
+.footer-para{
+    text-align: center;
+    font-weight: bolder;
+    font-size: large;
+}
+
+.footer-list{
+    text-decoration: none;
+    list-style: none;
+    text-align: center;
+}
+
+.footer-list-link{
+    display: inline;
+    padding:  2rem ;
+    padding-inline-start: 0px;
+}
+
+.footer-link{
+    text-decoration: none;
+    color: white;
+   
+}
+
